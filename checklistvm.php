@@ -4,7 +4,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 jimport( 'joomla.plugin.plugin' );
 
 class plgSystemChecklistvm extends JPlugin {   
-    function plgSystemChecklistvm( &$subject, $config ) {
+    function __construct( &$subject, $config ) {
        parent::__construct( $subject, $config );
     }    
 
